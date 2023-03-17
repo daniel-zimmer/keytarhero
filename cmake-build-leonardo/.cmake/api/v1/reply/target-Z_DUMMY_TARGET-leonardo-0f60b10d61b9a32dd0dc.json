@@ -1,0 +1,602 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega32u4"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_PROMICRO16"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=60103"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USB_MANUFACTURER=\"SparkFun\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USB_PID=0x9206"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USB_PRODUCT=\"SparkFun Pro Micro\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "USB_VID=0x1B4F"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__AVR_ATmega32U4__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/home/zimmer/Tudo/code/keytarhero/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/zimmer/Tudo/code/keytarhero/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/zimmer/Tudo/code/keytarhero/.pio/libdeps/leonardo/Mouse/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/zimmer/Tudo/code/keytarhero/.pio/libdeps/leonardo/Keyboard/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/zimmer/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/zimmer/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/zimmer/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/zimmer/.platformio/packages/toolchain-atmelavr/avr/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				13,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				33
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega32u4",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				13,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				33
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				29,
+				30,
+				31,
+				32,
+				35
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				34
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.codespellrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.github/dependabot.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.github/workflows/sync-labels.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/README.adoc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/examples/Serial/Serial.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_da_DK.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_de_DE.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_en_US.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_es_ES.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_fr_FR.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_it_IT.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/KeyboardLayout_sv_SE.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard_da_DK.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard_de_DE.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard_es_ES.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard_fr_FR.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard_it_IT.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Keyboard/src/Keyboard_sv_SE.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Mouse/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Mouse/README.adoc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Mouse/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Mouse/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/leonardo/Mouse/src/Mouse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/Mouse/src/Mouse.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/leonardo/integrity.dat",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

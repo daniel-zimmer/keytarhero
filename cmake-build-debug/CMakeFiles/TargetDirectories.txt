@@ -1,0 +1,5 @@
+/home/zimmer/Tudo/code/keytarhero/cmake-build-debug/CMakeFiles/Production.dir
+/home/zimmer/Tudo/code/keytarhero/cmake-build-debug/CMakeFiles/Debug.dir
+/home/zimmer/Tudo/code/keytarhero/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/zimmer/Tudo/code/keytarhero/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zimmer/Tudo/code/keytarhero/cmake-build-debug/CMakeFiles/rebuild_cache.dir
